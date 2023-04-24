@@ -1,0 +1,1 @@
+ini adalah data yang disimpan di dalam file
