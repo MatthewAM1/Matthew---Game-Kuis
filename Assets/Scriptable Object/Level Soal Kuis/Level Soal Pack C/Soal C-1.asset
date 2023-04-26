@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 779aa0dcc2731104fb92057c34e384fe, type: 3}
-  m_Name: Soal 4
+  m_Name: Soal C-1
   m_EditorClassIdentifier: 
-  pertanyaan: Warna Dari Matahari ?
-  petunjukJawaban: {fileID: 21300000, guid: 0a795d381754f454eb9418606fe46af7, type: 3}
+  pertanyaan: Warna Dari Daun ?
+  petunjukJawaban: {fileID: 21300000, guid: 03667860d4314fc42b47fd0f014ce490, type: 3}
+  levelPackIndex: 0
   opsiJawaban:
   - pilihanJawaban: Merah
     adalahBenar: 0
   - pilihanJawaban: Biru
     adalahBenar: 0
   - pilihanJawaban: Hijau
-    adalahBenar: 0
-  - pilihanJawaban: Kuning
     adalahBenar: 1
+  - pilihanJawaban: Kuning
+    adalahBenar: 0

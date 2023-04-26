@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779aa0dcc2731104fb92057c34e384fe, type: 3}
+  m_Name: Soal A-5
+  m_EditorClassIdentifier: 
+  pertanyaan: Warna Dari Laut ?
+  petunjukJawaban: {fileID: 21300000, guid: d8bd5cd6e0ca60343882510c92cd6829, type: 3}
+  levelPackIndex: 4
+  opsiJawaban:
+  - pilihanJawaban: Merah
+    adalahBenar: 0
+  - pilihanJawaban: Biru
+    adalahBenar: 1
+  - pilihanJawaban: Hijau
+    adalahBenar: 0
+  - pilihanJawaban: Kuning
+    adalahBenar: 0

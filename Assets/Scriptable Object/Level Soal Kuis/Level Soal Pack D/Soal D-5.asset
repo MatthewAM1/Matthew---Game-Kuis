@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 779aa0dcc2731104fb92057c34e384fe, type: 3}
-  m_Name: Soal 3
+  m_Name: Soal D-5
   m_EditorClassIdentifier: 
   pertanyaan: Warna Dari Daun ?
   petunjukJawaban: {fileID: 21300000, guid: 03667860d4314fc42b47fd0f014ce490, type: 3}
+  levelPackIndex: 4
   opsiJawaban:
   - pilihanJawaban: Merah
     adalahBenar: 0

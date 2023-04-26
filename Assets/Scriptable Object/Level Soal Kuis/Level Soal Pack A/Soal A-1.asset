@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 779aa0dcc2731104fb92057c34e384fe, type: 3}
-  m_Name: Soal 2
+  m_Name: Soal A-1
   m_EditorClassIdentifier: 
-  pertanyaan: Warna Dari Langit ?
-  petunjukJawaban: {fileID: 21300000, guid: ef3dea7c8e6326f46ab1c10595e4c8be, type: 3}
+  pertanyaan: Warna Dari Mawar ?
+  petunjukJawaban: {fileID: 21300000, guid: 2da1fb0d0f1621741acc781fb2ba7a9d, type: 3}
   opsiJawaban:
   - pilihanJawaban: Merah
-    adalahBenar: 0
-  - pilihanJawaban: Biru
     adalahBenar: 1
+  - pilihanJawaban: Biru
+    adalahBenar: 0
   - pilihanJawaban: Hijau
     adalahBenar: 0
   - pilihanJawaban: Kuning
