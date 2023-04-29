@@ -304,7 +304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6513118615939483882, guid: 2f172ccf8a695034fa449cab335d16f2, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6513118615939483882, guid: 2f172ccf8a695034fa449cab335d16f2, type: 3}
       propertyPath: m_AnchorMax.x
@@ -389,6 +389,31 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6513118615939483882, guid: 2f172ccf8a695034fa449cab335d16f2, type: 3}
   m_PrefabInstance: {fileID: 1327526857}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1327526859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6513118615939483894, guid: 2f172ccf8a695034fa449cab335d16f2, type: 3}
+  m_PrefabInstance: {fileID: 1327526857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1327526860
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327526859}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9f3a4f1198628e4e876766a9e4d0be1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1721523781
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +480,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803420870
 GameObject:
@@ -739,6 +764,7 @@ GameObject:
   - component: {fileID: 2003398945}
   - component: {fileID: 2003398944}
   - component: {fileID: 2003398943}
+  - component: {fileID: 2003398946}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -823,6 +849,18 @@ MonoBehaviour:
           m_StringArgument: Menu Pilih Level
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2003398946}
+        m_TargetAssemblyTypeName: PemanggilSuara, Assembly-CSharp
+        m_MethodName: PanggilSuara
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 19f89c6e740e7447f9e12a8310d3e973, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2003398944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,6 +899,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003398941}
   m_CullTransparentMesh: 1
+--- !u!114 &2003398946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003398941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750473503e1a19a4bb1b3b0b41e631ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4511772160809323424
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 367890746449201891, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184909035920564422, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a708535b14690ea47a20ee8d9e50f998, type: 3}
 --- !u!1001 &7199306141311707027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -870,7 +977,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3815808334660465015, guid: 9ae29db45e1b5d14a9066a1946b3291a, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3815808334660465015, guid: 9ae29db45e1b5d14a9066a1946b3291a, type: 3}
       propertyPath: m_LocalPosition.x

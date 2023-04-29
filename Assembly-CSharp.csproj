@@ -59,6 +59,7 @@
     <Compile Include="Assets\Script\GameSceneManager.cs" />
     <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Script\PlayerProgress.cs" />
+    <Compile Include="Assets\Script\UI_MenuConfirmMessage.cs" />
     <Compile Include="Assets\Script\LevelMenuDataManager.cs" />
     <Compile Include="Assets\Script\UI_OpsiLevelKuis.cs" />
     <Compile Include="Assets\Script\UI_PesanLevel.cs" />
@@ -71,6 +72,8 @@
     <Compile Include="Assets\Script\UI_Timer.cs" />
     <Compile Include="Assets\Script\InisialDataGameplay.cs" />
     <Compile Include="Assets\Script\UI_PoinJawaban.cs" />
+    <Compile Include="Assets\Script\AudioManager.cs" />
+    <Compile Include="Assets\Script\PemanggilSuara.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

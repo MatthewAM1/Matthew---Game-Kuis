@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f49a0f505d455634e9966c6464a89ab7, type: 3}
   m_Name: Player Progress
   m_EditorClassIdentifier: 
+  _filename: contoh.txt
+  _startingLevelPackName: Level Pack A
   progressData:
     koin: 0
